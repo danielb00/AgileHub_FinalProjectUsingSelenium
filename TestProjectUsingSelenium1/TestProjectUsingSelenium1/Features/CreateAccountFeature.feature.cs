@@ -20,8 +20,8 @@ namespace TestProjectUsingSelenium1.Features
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.5.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("CreateNewAccount")]
-    public partial class CreateNewAccountFeature
+    [NUnit.Framework.DescriptionAttribute("AccountUserFeatures")]
+    public partial class AccountUserFeaturesFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
@@ -35,7 +35,7 @@ namespace TestProjectUsingSelenium1.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "CreateNewAccount", @"	In order to validate create new account on automationpractice.com/index.php website.
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "AccountUserFeatures", @"	In order to validate create new account on automationpractice.com/index.php website.
 	Navigate on the automationpractice.com/index.php website.
 	Click on the sign in button.
     Fill in the email address and click on the create an account button.
@@ -126,14 +126,14 @@ this.ScenarioInitialize(scenarioInfo);
 #line 11
  testRunner.Given("I navigate to website and click sign in", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
                             "userEmail"});
-                table4.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             string.Format("{0}", userEmailValue)});
 #line 12
- testRunner.And("I fill in the email and click register", ((string)(null)), table4, "And ");
+ testRunner.And("I fill in the email and click register", ((string)(null)), table6, "And ");
 #line hidden
-                TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
                             "userFirstName",
                             "userLastName",
                             "userEmail",
@@ -144,7 +144,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "userCity",
                             "userZipCode",
                             "userMobilePhone"});
-                table5.AddRow(new string[] {
+                table7.AddRow(new string[] {
                             string.Format("{0}", userFirstNameValue),
                             string.Format("{0}", userLastNameValue),
                             string.Format("{0}", userEmailValue),
@@ -156,7 +156,7 @@ this.ScenarioInitialize(scenarioInfo);
                             string.Format("{0}", userZipCodeValue),
                             string.Format("{0}", userMobilePhoneValue)});
 #line 15
- testRunner.When("I fill in the text boxex with following data", ((string)(null)), table5, "When ");
+ testRunner.When("I fill in the text boxex with following data", ((string)(null)), table7, "When ");
 #line hidden
 #line 18
  testRunner.And("I click on the register button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -207,12 +207,12 @@ this.ScenarioInitialize(scenarioInfo);
 #line 27
  testRunner.Given("I navigate to website and click sign in", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-                TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
                             "userEmail"});
-                table6.AddRow(new string[] {
+                table8.AddRow(new string[] {
                             string.Format("{0}", userEmailValue)});
 #line 28
- testRunner.When("I fill in the email and click register", ((string)(null)), table6, "When ");
+ testRunner.When("I fill in the email and click register", ((string)(null)), table8, "When ");
 #line hidden
 #line 31
  testRunner.Then("I validated if the flyout with alert message is displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

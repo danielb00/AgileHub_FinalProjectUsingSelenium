@@ -18,16 +18,6 @@ namespace TestProjectUsingSelenium1.PageObjects
             _driverWait.IgnoreExceptionTypes();
         }
 
-        public void SelectProduct()
-        {
-            dressButton.Click();
-            summerDressButton.Click();
-            printedSummerButton.Click();
-            sizeButton.Click();
-            sizeOptionButton.Click();
-            colorButton.Click();
-            addToCartButton.Click();
-            proceedToCheckouButton.Click();
-        }
+        
     }
 }

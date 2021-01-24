@@ -113,24 +113,24 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                             "userEmail",
                             "userPassword"});
-                table2.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "testdaniel@gmail.com",
                             "test12345"});
 #line 10
- testRunner.Given("I navigate to website and I authenticate with valid user", ((string)(null)), table2, "Given ");
+ testRunner.Given("I navigate to website and I authenticate with valid user", ((string)(null)), table4, "Given ");
 #line hidden
 #line 13
  testRunner.And("I click on contact us button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
                             "messageText"});
-                table3.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             string.Format("{0}", messageTextValue)});
 #line 14
- testRunner.When("I fill in the message text box with following data", ((string)(null)), table3, "When ");
+ testRunner.When("I fill in the message text box with following data", ((string)(null)), table5, "When ");
 #line hidden
 #line 17
  testRunner.And("I click on send message button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");

@@ -115,14 +115,14 @@ this.ScenarioInitialize(scenarioInfo);
 #line 8
  testRunner.Given("I navigate to website and click signin button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-                TechTalk.SpecFlow.Table table9 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table11 = new TechTalk.SpecFlow.Table(new string[] {
                             "userEmail",
                             "userPassword"});
-                table9.AddRow(new string[] {
+                table11.AddRow(new string[] {
                             string.Format("{0}", userEmailValue),
                             string.Format("{0}", userPasswordValue)});
 #line 9
- testRunner.When("I login with following credentials", ((string)(null)), table9, "When ");
+ testRunner.When("I login with following credentials", ((string)(null)), table11, "When ");
 #line hidden
 #line 12
  testRunner.Then("I validated if the my personal information button is displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -171,14 +171,14 @@ this.ScenarioInitialize(scenarioInfo);
 #line 20
  testRunner.Given("I navigate to website and click signin button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-                TechTalk.SpecFlow.Table table10 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table12 = new TechTalk.SpecFlow.Table(new string[] {
                             "userEmail",
                             "userPassword"});
-                table10.AddRow(new string[] {
+                table12.AddRow(new string[] {
                             string.Format("{0}", userEmailValue),
                             string.Format("{0}", userPasswordValue)});
 #line 21
- testRunner.When("I login with following credentials", ((string)(null)), table10, "When ");
+ testRunner.When("I login with following credentials", ((string)(null)), table12, "When ");
 #line hidden
 #line 24
  testRunner.And("I logout of the account", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");

@@ -1,4 +1,4 @@
-﻿Feature: CreateNewAccount
+﻿Feature: AccountUserFeatures
 	In order to validate create new account on automationpractice.com/index.php website.
 	Navigate on the automationpractice.com/index.php website.
 	Click on the sign in button.

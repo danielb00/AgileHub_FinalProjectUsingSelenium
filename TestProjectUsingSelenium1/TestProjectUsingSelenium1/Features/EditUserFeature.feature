@@ -20,4 +20,4 @@ Scenario: EditPersonalInformationUser
 
 Examples: 
     | editUserFirstNameValue| editUserLastNameValue | editUserEmailValue		| currentPasswordValue | newPasswordValue | confirmationPasswordValue | 
-    | EditDaniel		    | EditTest			    | testdaniel15@gmail.com    | test12345			   | test123          | test123                   |
+    | EditDaniel		    | EditTest			    | testdaniel16@gmail.com    | test12345			   | test123          | test123                   |

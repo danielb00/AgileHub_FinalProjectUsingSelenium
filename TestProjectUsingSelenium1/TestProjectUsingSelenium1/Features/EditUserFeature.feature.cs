@@ -80,7 +80,7 @@ namespace TestProjectUsingSelenium1.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("EditPersonalInformationUser")]
         [NUnit.Framework.CategoryAttribute("EditPersonalInformationUser")]
-        [NUnit.Framework.TestCaseAttribute("EditDaniel", "EditTest", "testdaniel15@gmail.com", "test12345", "test123", "test123", null)]
+        [NUnit.Framework.TestCaseAttribute("EditDaniel", "EditTest", "testdaniel16@gmail.com", "test12345", "test123", "test123", null)]
         public virtual void EditPersonalInformationUser(string editUserFirstNameValue, string editUserLastNameValue, string editUserEmailValue, string currentPasswordValue, string newPasswordValue, string confirmationPasswordValue, string[] exampleTags)
         {
             string[] @__tags = new string[] {
@@ -118,26 +118,26 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table9 = new TechTalk.SpecFlow.Table(new string[] {
                             "userEmail",
                             "userPassword"});
-                table7.AddRow(new string[] {
+                table9.AddRow(new string[] {
                             "testdaniel@gmail.com",
                             "test12345"});
 #line 11
- testRunner.Given("I navigate to website and I login with following credentials", ((string)(null)), table7, "Given ");
+ testRunner.Given("I navigate to website and I login with following credentials", ((string)(null)), table9, "Given ");
 #line hidden
 #line 14
  testRunner.And("I click on the my personal information button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-                TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table10 = new TechTalk.SpecFlow.Table(new string[] {
                             "editUserFirstName",
                             "editUserLastName",
                             "editUserEmail",
                             "currentPassword",
                             "newPassword",
                             "confirmationPassword"});
-                table8.AddRow(new string[] {
+                table10.AddRow(new string[] {
                             string.Format("{0}", editUserFirstNameValue),
                             string.Format("{0}", editUserLastNameValue),
                             string.Format("{0}", editUserEmailValue),
@@ -145,7 +145,7 @@ this.ScenarioInitialize(scenarioInfo);
                             string.Format("{0}", newPasswordValue),
                             string.Format("{0}", confirmationPasswordValue)});
 #line 15
- testRunner.When("I edit the text boxex with following data", ((string)(null)), table8, "When ");
+ testRunner.When("I edit the text boxex with following data", ((string)(null)), table10, "When ");
 #line hidden
 #line 18
  testRunner.And("I click on the save button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
